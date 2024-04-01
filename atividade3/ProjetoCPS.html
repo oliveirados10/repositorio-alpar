@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estiloN.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<title>GEEAD - Técnico em Desenvolvimento de Sistemas</title>
+
+
+<style>
+    .w3-sidebar {
+        width: 140px;
+        background: #222;
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    #main {
+        margin-left: 120px;
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+
+    a:link {
+        color: green;
+    }
+
+    /*Seletor de link visitado*/
+
+    a:visited {
+        color: blue;
+    }
+
+    /*Seletor de link quando o mouse passar por cima do link*/
+    a:hover {
+        color: rgba(100, 120, 236, 0.705);
+    }
+</style>
+
+<body class="w3-black">
+    <nav class="w3-sidebar w3-bar-block w3-center w3-hide-small">
+        <!-- HOME -->
+        <a href="#home" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+
+        <!-- Sobre -->
+        <a href="#sobre" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>Sobre</p>
+        </a>
+
+        <!-- Grade Curricular -->
+        <a href="#gradeC"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-columns w3-xxlarge"></i>
+            <p>Grade Curricular</p>
+        </a>
+
+        <!-- Docente -->
+        <a href="#docentes"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-address-card w3-xxlarge"></i>
+            <p>Docentes</p>
+        </a>
+
+
+        <!-- Mercado de Trabalho -->
+        <a href="#mercado"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-handshake w3-xxlarge"></i>
+            <p>Mercado de Trabalho</p>
+        </a>
+
+        <!-- Tecnologias -->
+        <a href="#tecnologias"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-laptop w3-xxlarge"></i>
+            <p> Tecnologias </p>
+        </a>
+
+        <!-- Contato -->
+        <a href="#contato"
+            class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>Contato</p>
+        </a>
+
+        <!-- Botão de Voltar -->
+        <a href="#return" class="w3-bar-item w3-button w3-padding-large w3-hover-black w3-hover-text-cyan w3-text-white">
+            <i class="fa fa-arrow-left w3-xxlarge"></i>
+            <p> Return </p>
+        </a>
+    </nav>
+
+    <div class="w3-padding-large" id="main">
+        <header class="w3-container w3-padding-32 w3-center " id="home">
+            <h1>
+                <img src="IMG/logoCab.png" alt="Logo CPS GEEAD SP" class="w3-image" width="50%">
+            </h1>
+            <br>
+            <h1>
+                <img src="IMG/logoDS.png" alt="Desenvolvimento de Sistemas" class="w3-image" width="90%">
+            </h1>
+        </header>
+
+        <div class="w3-content w3-padding-64" id="sobre">
+            <h2 class="w3-text-cyan">Sobre o Curso</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <ul class="w3-ul w3-hoverable w3-center w3-white">
+                <li class="w3-cyan w3-xlarge w3-padding-32">O curso tem como objetivo capacitar o aluno
+                    para:</li>
+                <li class="w3-padding-16">Desenvolver e operar sistemas, aplicações e interfaces gráficas</li>
+                <li class="w3-padding-16">Montar e realizar manutenção em estruturas de banco de dados</li>
+                <li class="w3-padding-16">Codificar programas e Projetar, implantar ecustomizar sistemas de aplicações
+                </li>
+                <li class="w3-padding-16">Selecionar programas de aplicação e sistemas operacionais a partir da
+                    avaliação das necessidades do usuário;</li>
+                <li class="w3-padding-16">Agir de forma a minimizar os riscos inerentes à segurança de informações,
+                    relacionando e aplicando soluções adequadas</li>
+                <li class="w3-padding-16">Identificar oportunidades e tendências no mundo digital</li>
+        </div>
+        <div class="w3-row w3-padding-16 w3-section w3-light-grey w3-center"></div>
+        <div class="w3-row w3-padding-16 w3-section w3-light-grey w3-center">
+            <div class="w3-third w3-section">
+                <span class="w3-xlarge">1200+ horas</span>
+                <br> Aula
+            </div>
+            <div class="w3-third w3-section">
+                <span class="w3-xlarge">1000+ horas</span>
+                <br> Aulas Práticas
+            </div>
+            <div class="w3-third w3-section">
+                <span class="w3-xlarge">Certificado</span>
+                <br> Reconhecido pelo MEC
+            </div>
+        </div>
+
+        <div class=" w3-content" id="gradeC">
+            <h2 class="w3-text-cyan">Grade Curricular</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <div class="w3-row w3-row-padding">
+                <div class="w3-third w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-cyan w3-xlarge w3-padding-32">1º Módulo</li>
+                        <li class="w3-padding-16">Linguagem, Trabalho e Tecnologia</li>
+                        <li class="w3-padding-16">Programação e Algoritmos</li>
+                        <li class="w3-padding-16">Banco de Dados I</li>
+                        <li class="w3-padding-16">Análise e Projeto de Sistemas</li>
+                        <li class="w3-padding-16">Design Digital</li>
+                        <li class="w3-padding-16">Programação Web I</li>
+                        <li class="w3-padding-16">Fundamentos da Informática</li>
+                        <li class="w3-padding-16">Técnicas de Programação</li>
+                        <li class="w3-padding-16">
+                            <span class="w3-xlarge">Total</span>
+                            <br>400/h semestre
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="w3-third">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-cyan w3-xlarge w3-padding-32">2º Módulo</li>
+                        <li class="w3-padding-16">Inglês Instrumental</li>
+                        <li class="w3-padding-16">Desenvolvimento de Sistemas</li>
+                        <li class="w3-padding-16">Banco de Dados II</li>
+                        <li class="w3-padding-16">Internet e Protocolos</li>
+                        <li class="w3-padding-16">Programação de Aplicativos Mobile I</li>
+                        <li class="w3-padding-16">Programação Web II</li>
+                        <li class="w3-padding-16">Planejamento do Trabalho de Conclusão de Curso (TCC) em
+                            Desenvolvimento de Sistemas
+                            <br>
+                            <br>
+                        </li>
+                        <li class="w3-padding-16">
+                            <span class="w3-xlarge">Total</span>
+                            <br>400/h semestre
+                        </li>
+                    </ul>
+                </div>
+                <div class="w3-third">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                        <li class="w3-cyan w3-xlarge w3-padding-32">3º Módulo</li>
+                        <li class="w3-padding-16">Segurança de Sistemas de Informação</li>
+                        <li class="w3-padding-16">Banco de Dados III</li>
+                        <li class="w3-padding-16">Sistemas Embarcados</li>
+                        <li class="w3-padding-16">Programação de Aplicativos Mobile II</li>
+                        <li class="w3-padding-16">Programação Web III</li>
+                        <li class="w3-padding-16">Qualidade e Teste de Software</li>
+                        <li class="w3-padding-16">Ética e Cidadania Organizacional</li>
+                        <li class="w3-padding-16">Desenvolvimento do Trabalho de Conclusão de Curso (TCC)</li>
+                        <li class="w3-padding-16">
+                            <span class="w3-xlarge">Total</span>
+                            <br>400/h semestre
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Docentes-->
+        <div class="w3-padding-64 w3-content" id="docentes">
+            <h2 class="w3-text-cyan">Docentes</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+
+            <div class="w3-row w3-padding-32 w3-margin-bottom w3-display-container">
+
+                <div class="w3-row w3-padding-32 w3-margin-bottom slides">
+                    <div class="w3-third w3-container w3-left">
+                        <br>
+                        <img src="IMG/professor.jpg" alt="Professor" style="width:100%"
+                            class="w3-opacity w3-hoveropacity-off w3-left-align">
+                    </div>
+                    <div class="w3-third w3-container w3-padding-16">
+                        <h3 class="w3-text-cyan"> Professor Sérgio </h3>
+                        <h4 class="w3-text-cyan"> Formação Acadêmica </h4>
+                        <p>Formado em Análise e Desenvolvimento de Sistems (2007)</p>
+                        <h4 class="w3-text-cyan"> Atuação Profissional </h4>
+                        <p>Professor Sérgio Marquina, mestre em planejamento e pensamento analítico, a 8 anos
+                            lecionando a história e o conceito da Tecnologia e Desenvolvimento de Sistemas.</p>
+                    </div>
+                </div>
+
+
+                <div class="w3-row w3-padding-32 w3-margin-bottom slides">
+                    <div class="w3-third w3-container w3-left">
+                        <br>
+                        <img src="IMG/xavier.jpeg" alt="Xavier" style="width: 100%"
+                            class="w3-opacity w3-hoveropacity-off w3-left-align">
+                    </div>
+                    <div class="w3-third w3-container w3-padding-16">
+                        <h3 class="w3-text-cyan"> Professor Charles Xavier </h3>
+                        <h4 class="w3-text-cyan"> Formação Acadêmica </h4>
+                        <p>Formado em Redes e Computadores e Análise e Desenvolvimento de Sistemas (2003)</p>
+                        <h4 class="w3-text-cyan"> Atuação Profissional </h4>
+                        <p>Professor Charles Francis Xavier, é o grande responsável pela criação da escola profissional
+                            de Tecnologia e
+                            Sistemas Web, em sua escola não só por ele como pelos outros professores é fornecido
+                            auxílio do mais alto nível para que seus alunos em geral, possam ter o melhor
+                            comprometimento com os
+                            estudos ensinados.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="w3-row w3-padding-32 w3-margin-bottom slides">
+                    <div class="w3-third w3-container w3-left">
+                        <br>
+                        <img src="IMG/bruce.jpg" alt="Bruce" style="width: 100%"
+                            class="w3-opacity w3-hoveropacity-off w3-left-align">
+                    </div>
+                    <div class="w3-third w3-container w3-padding-16">
+                        <h3 class="w3-text-cyan"> Professor Bruce Banner </h3>
+                        <h4 class="w3-text-cyan"> Formação Acadêmica </h4>
+                        <p>Formado em Tecnologia da Informação e Análise e Desenvolvimento de Sistemas (2008) </p>
+                        <h4 class="w3-text-cyan"> Atuação Profissional </h4>
+                        <p>Professor Robert Bruce Banner, é um grande estudioso sobre as relações tecnologicas na
+                            sociedade, onde é mencionado o impacto das tecnologias no dia-a-dia da humanidade. </p>
+                    </div>
+                </div>
+
+                <button class="w3-button w3-cyan w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-cyan w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+
+            </div>
+
+            <!-- JavaScript -->
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("slides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+
+
+            <h4 class="w3-text-cyan">Fonte das imagens:</h4>
+            <p>
+
+            <p>
+                <a
+                    href="https://gauchazh.clicrbs.com.br/cultura-e-lazer/tv/noticia/2020/07/la-casa-de-papel-alvaro-morte-o-professor-publica-foto-em-set-de-gravacoes-da-quinta-temporada-da-serie-ckcwb90k20061013gz1n58dmu.html">
+                    Professor Sérgio
+                </a>
+
+            <p>
+                <a
+                    href="https://stories.adorocinema.com/doutor-estranho-2-patrick-stewart-vai-aparecer-como-professor-xavier-dos-x-men-no-filme-da-marvel/">
+                    Professor Xavier
+                </a>
+            </p>
+
+            <p>
+                <a href="https://tr.pinterest.com/pin/400679698087367774/">
+                    Professor Bruce
+                </a>
+            </p>
+            </p>
+
+        </div>
+
+
+
+
+        <div class="w3-padding-64 w3-content w3-" id="mercado">
+            <h2 class="w3-text-cyan">Mercado de Trabalho</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p> Segundo o que informa a Associação Brasileira das Empresas de Software (ABES) em parceria com
+                International Data
+                Corporation Pesquisa de Mercado e Consultoria Ltda (IDC), em 2016 haverá
+                um crescimento em 3% no mercado
+                de Tecnologia da Informação no Brasil.
+            </p>
+
+            <p>Outras Associações e Instituições também discursam sobre o constante
+                crescimento da área da Tecnologia da Informação
+                (T.I.), como, por exemplo, a Associação Brasileira das Empresas de
+                Tecnologia da Informação e Comunicação
+                (BRASSCOM), que em uma entrevista realizada pelo Jornal da Globo, foi
+                divulgado pelo presidente da empresa,
+                Sérgio Sgobbi, que em 2015 a área da Tecnologia da Informação (T.I.)
+                registrou uma alta de mais de 8% em
+                oportunidades de emprego e a tendência para os demais anos é crescer
+                gradativamente.
+            </p>
+
+            <p>Além disso, em apresentação ocorrida durante o seminário "Governo e o setor
+                de TI - Garantia de Inovação, Produtividade
+                e Segurança”, em Brasília, a expectativa era de que no segundo semestre de
+                2015, o setor de TI tivesse um
+                crescimento nos investimentos da ordem de 7% a 7,5%, incluindo hardware,
+                software e serviços.
+            </p>
+
+            <p>Essas informações são baseadas em pesquisa feita pelo International Data
+                Corporation (IDC) no mercado de TI do
+                Brasil. Esta mesma pesquisa aponta que a Indústria Brasileira de TI
+                permanece em 7º lugar no ranking mundial
+                e em 1° lugar no Ranking da América Latina em 2015, com um investimento de
+                US$ 2,2 trilhões (crescimento
+                em 9,2% em relação a 2014), sendo que US$ 14,3 bilhões (crescimento de
+                8,2%) somente no setor Serviços de
+                T.I. e US$ 12,3 bilhões (crescimento em 30,2%) no setor de softwares.
+            </p>
+
+            <p>A pesquisa apresentada também trouxe um mapa do investimento em TI no país,
+                no qual a região Sudeste foi a que
+                mais teve participação total nos investimentos em hardware, software e
+                serviços, com 60,67%.
+            </p>
+
+
+            <p>
+            <h6 class="w3-text-cyan">Fontes de Consulta:</h6>
+            Associação Brasileira das Empresas de Software. Disponível em Ago. 2017.
+            <a href="http://www.abessoftware.com.br/">Abessoftware</a>. Acesso em 15
+            <br> International Data Corporation. Disponível em
+            <a href=" http://br.idclatin.com/">Idclatin</a>. Acesso em 15 Ago. 2017.
+            <br> CENTRO PAULA SOUZA. Missão, Visão, Objetivos e Diretrizes.
+            </p>
+        </div>
+
+        <div class="w3-padding-64 w3-content" id="tecnologias">
+            <h2 class="w3-text-cyan">Tecnologias</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <div class="w3-row w3-row-padding">
+                <div class="w3-half">
+                    <img src="IMG/html5.png" style="width:50%" class="w3-opacity w3-hoveropacity-off">
+                    <img src="IMG/CSS3.png" style="width:50%" class="w3-opacity w3-hoveropacity-off">
+                    <img src="IMG/php.png" style="width:50%" class="w3-opacity w3-hoveropacity-off">
+                </div>
+                <div class="w3-half">
+                    <img src="IMG/csharp.png" style="width:50%" class="w3-opacity w3-hoveropacity-off">
+                    <img src="IMG/sql.png" style="width:50%" class="w3-opacity w3-hoveropacity-off">
+                    <img src="IMG/java.png" style="width:50%" class="w3-opacity w3-hoveropacity-off">
+                </div>
+            </div>
+        </div>
+        <div class="w3-padding-128 w3-content w3-text-grey" id="contato">
+            <h2 class="w3-text-cyan">Contato</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <div class="w3-section">
+                <p>
+                    <i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-marginright"></i> São Paulo, Brasil
+                </p>
+                <p>
+                    <i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-marginright"></i> Telefone: 11 3333-3333
+                </p>
+                <p>
+                    <i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-marginright"> </i> Email:
+                    ds@cps.sp.gov.br
+                </p>
+            </div>
+            <p>Entre em contato:</p>
+            <form>
+                <p>
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Nome" required name="Nome">
+                </p>
+
+                <p>
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email">
+                </p>
+
+                <p>
+                    <input class="w3-input w3-padding-16" type="text" placeholder="Assunto" required name="Assunto">
+                </p>
+
+                <p>
+                    <input class="w3-input w3-padding-16" placeholder="Mensagem" required name="Mensagem">
+                </p>
+
+                <p>
+                    <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+                        <i class="fa fa-paper-plane"></i> Enviar mensagem
+                    </button>
+                </p>
+            </form>
+
+            <div class="w3-top w3-hide-large w3-hide-medium">
+                <nav class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+                    <a href="#home" class="w3-bar-item w3-button" style="width:25% ">HOME</a>
+                    <a href="#sobre" class="w3-bar-item w3-button" style="width:25% ">SOBRE</a>
+                    <a href="#tecnologias" class="w3-bar-item w3-button" style="width:27%"> TECNOLOGIAS </a>
+                    <a href="#contato" class="w3-bar-item w3-button" style="width:23%">CONTATO </a>
+                    <a href="#return" class="w3-bar-item w3-button" style="width:23%">RETORNAR </a>
+                </nav>
+            </div>
+        </div>
+
+            </div>
+
+            <header class="w3-container w3-padding-32 w3-center " id="return">
+            <a class="w3-hover-blue w3-round-xlarge w3-right" href="./index.html">Retornar à tela de Login</a>
+
+
+</body>
+
+</html>
