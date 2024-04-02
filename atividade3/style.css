@@ -9,7 +9,7 @@
 
 
 body {
-    background: url("imagem_fundo_azul_e_roxo.jpg");
+    background: url("./IMG/image_background_azul.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -255,7 +255,7 @@ background: rgba(255, 255, 255, 0.15)
 
 a {
     text-decoration: none;
-    color: black; 
+    color: white; 
     font-weight: bold; /
 }
 
