@@ -40,7 +40,7 @@
     }
 
     .nav-logo p {
-        color: rgb(238, 222, 2);
+        color:yellow;
         font-size: 25px;
         font-weight: 700;
     }
@@ -203,3 +203,19 @@
 
 
     
+
+    a {
+        height: 50%;
+        color: yellow;
+        justify-content: space-around;
+        font-size: 20px;
+        text-align: center;
+        line-height: 8vh;
+        font-weight: bold; 
+    }
+
+
+
+a:hover {
+    color: rgba(245, 228, 0, 0.63);
+}
