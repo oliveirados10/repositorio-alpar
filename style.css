@@ -33,6 +33,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 60px;
+    padding: 10px;
 }
 
 .content {
@@ -43,6 +44,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    padding: 20px;
+
 }
 
 .atividades {
@@ -54,10 +57,24 @@ body {
     align-items: center;
     padding: 20px;
     border-radius: 50px;
+    overflow: auto;
+}
+
+
+.atividades h1{
+    color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    font-weight: bold;
 }
 
 .atividades div{
-    margin-bottom: 20px;
+    display: grid;
+    margin-bottom: -8px;
 }
 
 .atividades p{
@@ -73,10 +90,9 @@ body {
 }
 
 img{
-    height: 50%;
-    width: 50%;
+    height: 70%;
+    width: 70%;
     padding: 10px;
     border-radius: 50px;
-    display:flexbox;
 
 }
