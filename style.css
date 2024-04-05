@@ -15,7 +15,6 @@ body {
     background-attachment: fixed;
 }
 
-
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -67,7 +66,9 @@ body {
 
 .atividades a{
     text-decoration:none;
+    display: flex;
     text-align: center;
+    justify-content: center;
     font-weight: bold;
 }
 
