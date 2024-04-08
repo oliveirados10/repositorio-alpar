@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
-    grid-gap: 5px;
+    grid-gap: 10px;
     height: auto;
     width: auto;
     overflow: auto;
