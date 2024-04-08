@@ -47,6 +47,15 @@ body {
     padding: 10px;
 }
 
+.header h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+
+}
+
 .content {
     background-color: rgba(128, 128, 128, 0.425);
     color: white;
@@ -80,8 +89,8 @@ body {
     padding: 20px;
     border-radius: 30px;
     font-weight: bold;
+    display: flex;
     overflow: auto;
-    display: none;
 }
 
 .atividades div {
@@ -106,10 +115,11 @@ body {
 }
 
 img {
+    margin-top: 0;
     max-width: 70vh;
     height: 30vh;
-    padding: 10px;
     border-radius: 50px;
+    align-items: flex-start;
 }
 
 
