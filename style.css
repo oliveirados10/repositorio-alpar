@@ -38,26 +38,29 @@ body {
 .content {
     background-color: rgba(128, 128, 128, 0.425);
     color: white;
+    border-radius: 30px;
+    padding: 20px;
+    min-height: 100vh;
+    overflow: auto;
     display: flex;
-    height: 100vh;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
-    padding: 20px;
-    min-width: 100px;
+    text-align: center;
 }
 
 .atividades {
     background-color: rgba(128, 128, 128, 0.425);
     color: white;
+    border-radius: 30px;
+    padding: 20px;
+    min-height: 100vh;
+    overflow: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
-    padding: 20px;
-    border-radius: 50px;
-    min-width: 100px;
-    overflow:auto;
+    text-align: center;
 }
 
 .atividades h1 {
@@ -110,6 +113,7 @@ body {
         grid-template-columns: 1fr; 
         overflow: hidden;
         min-height: 30px;
+        overflow: auto;
     }
 
     .header, .content, .atividades {
@@ -125,7 +129,7 @@ body {
     @media(max-width:800px){ 
         .content{ 
         display: grid;
-        grid-auto-columns: 1fr;
+        grid-auto-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         justify-content: center;
         align-items: center;
@@ -133,5 +137,12 @@ body {
         overflow: auto;
 
     }
+    }
+
+    @media(max-height:700px){
+        .content{
+            display: none;
+            overflow: auto;
+        }
     }
 }    
