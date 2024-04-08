@@ -28,7 +28,9 @@ body {
     background-color: rgba(128, 128, 128, 0.425);
     color: lightblue;
     display: flex;
-    height: 10vh;
+    flex-direction: row;
+    min-width: none;
+
     justify-content: center;
     align-items: center;
     border-radius: 60px;
