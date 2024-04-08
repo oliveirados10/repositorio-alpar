@@ -18,9 +18,20 @@ body {
 .container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 10px;
-    height: 100vh;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    height: auto;
+    width: auto;
+    overflow: auto;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+
 }
 
 .header {
@@ -30,7 +41,6 @@ body {
     display: flex;
     flex-direction: row;
     min-width: none;
-
     justify-content: center;
     align-items: center;
     border-radius: 60px;
@@ -71,6 +81,7 @@ body {
     border-radius: 30px;
     font-weight: bold;
     overflow: auto;
+    display: none;
 }
 
 .atividades div {
@@ -94,12 +105,12 @@ body {
     
 }
 
-/* img {
+img {
     max-width: 70vh;
     height: 30vh;
     padding: 10px;
     border-radius: 50px;
-} */
+}
 
 
 /* Alteração do CSS incluindo Media Queries*/
