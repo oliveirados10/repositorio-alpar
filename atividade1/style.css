@@ -7,36 +7,26 @@
     box-sizing: border-box;
 }
 
-
 body {
     padding: 20px;
     background: url("background_red.avif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    }
-
-
+}
 
 .header {
-    grid-column: span 2;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgba(248, 2, 2, 0.61);
     color: white; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font: bolder;
-    height: 10vh;
+    font-weight: bolder;
     border-radius: 60px;
     padding: 10px; 
-    
+    margin-bottom: 20px;
 }
-
 
 .titulo {
     display: flex;
@@ -48,20 +38,17 @@ body {
     padding: 20px;
 }
 
-.informacoes{
-    display: grid;
-    flex-basis:65%;
+.informacoes {
     border-radius: 30px;
     color: black;
     padding: 20px;
 }
 
-.informacoes p{
+.informacoes p {
     text-align: justify;
-    }
+}
 
-    
-.formacao{
+.formacao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,41 +58,53 @@ body {
     padding: 20px;
 }
 
-img{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin: 0;
-        border-radius: 20%;
-        padding: 20px;
-        height: auto;
-        width: 70vh;
-    
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20%;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
 }
-
 
 .images {
     display: flex;
     justify-content: center;
 }
 
-.image-container{
+.image-container {
     flex: 0 0 50%;
     padding: 10px;
 }
 
-.image-container img{
+.image-container img {
     max-width: 100%;
     height: auto;
     border-radius: 20%;
 }
 
-
-a{
+a {
     color: whitesmoke;
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
+/* Alteração do CSS incluindo Media Queries*/
+
+@media (max-width: 800px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
