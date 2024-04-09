@@ -33,7 +33,7 @@ body {
     height: 100px;
     line-height: 100px;
     background: linear-gradient(rgba(39, 39, 39, 0.6), transparent);
-    z-index: 100;
+    z-index: 50vh;
 }
 
 .nav-logo p {
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-menu ul {
-    display: flex;
+    display:flex;
 
 }
 
@@ -261,4 +261,39 @@ a {
 
 a:hover {
     color: rgba(255, 255, 255, 0.7);
+}
+
+
+@media (max-width: 786px) {
+    .nav {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        text-align: center;
+        padding-left: 05px; 
+        padding-right: 05px;
+    }
+
+    .nav-menu {
+        display: none;
+        justify-content: space-around; 
+        background: rgba(39, 39, 39, 0.6); 
+    }
+
+    .nav-menu ul {
+        display: flex;
+        justify-content: space-around; 
+        width: 100%; 
+    }
+
+    .nav-menu ul li {
+        flex: 1; 
+        margin: 0; 
+        justify-content: space-around; 
+        text-align: center;
+    }
+
+    .nav-menu ul li .link {
+        padding: 10px 0;
+    }
 }
