@@ -12,3 +12,24 @@
 
     @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
+
+    a {
+        text-decoration: none;
+        color: white; 
+        font-weight: bold; 
+    }
+    
+    a:hover {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+
+    @media (max-width: 800px) {
+    .nav-class {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center; 
+        background: rgba(39, 39, 39, 0.6); 
+    }
+} 
