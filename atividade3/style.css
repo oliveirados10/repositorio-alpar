@@ -215,12 +215,12 @@ header {
 } 
 
 @media only screen and (max-width: 786px) {
-    .nav-button {
+    .nav-menu {
         display: none;
     }
+
     .nav-menu {
         position: absolute;
-        top: 100px;
         display: flex;
         justify-content: center;
         background: rgba(255, 255, 255, 0.2);
@@ -229,9 +229,28 @@ header {
         backdrop-filter: blur(20px);
         transition: .3s;
     }
-    .nav-menu ul{
-        flex-direction: column;
+    .nav-menu {
+        display: flex;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-logo {
+        display:inline;
+        justify-content: left;
+        align-items: center;
+        padding-top: 50px;
+        
+    }
+
+
+    .nav-button {
+        display:inline;
+        justify-content: left;
+        align-items: center;
+        padding-top: 50px;
+        
     }
 
     .nav-menu-btn{
