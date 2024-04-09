@@ -221,3 +221,55 @@
 a:hover {
     color: rgba(245, 228, 0, 0.63);
 }
+
+
+
+@media (max-width: 800px) {
+
+
+    .nav-logo, .nav-menu, nav{
+        display: flex;
+        justify-content: space-around; 
+        align-items: center;
+        text-align: center;
+        top: 0;
+        margin-top: 0;
+        padding: 10px;
+    }
+
+    .nav-menu {
+        display: none;
+        justify-content: space-around; 
+        background: rgba(39, 39, 39, 0.6); 
+    }
+
+
+    .header{
+        font-size: 16px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    iframe {
+        box-sizing: border-box;
+        width: 70%; 
+        height: 40vh; 
+        border: 5px solid;  
+        border-radius: 20px; 
+        border-color: yellow;
+        margin-top: 10px; 
+        margin-bottom: 20px; 
+    }
+    
+    @media (max-width: 600px) {
+        iframe {
+            width: 80%;
+            height: 60vh;
+            border-radius: 70px;
+            
+        }
+    }
+
+
+}
