@@ -13,6 +13,7 @@
 body{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    background-repeat: no-repeat;
     background-color: #ca4a58;
     display: flex;
     justify-content: center;
@@ -47,10 +48,12 @@ header{
     color:#fcde0e;
     font-weight: 900;
     -webkit-text-stroke-width:2px;
-    -webkit-text-stroke-color:#375daa
-    /* text-shadow: 5px 10px #375daa; */
+    -webkit-text-stroke-color:#375daa;
 }
 
+header h1{
+    font-size: 110px;
+}
 
 main{
     display: flex;
@@ -501,3 +504,26 @@ main{
     color: #ffff;
 
 }
+
+/* Tornando o site reponsivo */
+
+@media screen and (max-width: 768px) {
+  
+    header h1 {
+        display: flex;
+        font-size: 80px;
+    }
+      
+    } 
+
+
+    
+@media screen and (max-width: 768px) {
+  
+    body {
+        display: flex;
+        right: 0;
+        justify-content: center;
+    }
+      
+    } 
