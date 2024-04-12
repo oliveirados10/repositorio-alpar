@@ -516,14 +516,3 @@ main{
       
     } 
 
-
-    
-@media screen and (max-width: 768px) {
-  
-    body {
-        display: flex;
-        right: 0;
-        justify-content: center;
-    }
-      
-    } 
