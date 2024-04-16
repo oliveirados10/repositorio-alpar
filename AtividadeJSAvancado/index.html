@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conta Bancária</title>
+</head>
+
+<body>
+    <div class ="container">
+        <header>
+            <h1> Conta Bancária</h1>
+        </header>
+        <label for="saldo">Insira o valor desejável: </label>
+        <input type="number" id="valor"> </input>
+        <div class = "botoes">
+        <button class = "deposito" onclick="deposito()"> Depósito </button>
+        <button class = "saque" onclick="saque()"> Saque </button>
+    </div>
+        <p id="valorTotal"> Valor Total: R$ 0,00</p>
+
+
+        <!-- Ativação do JavaScript -->
+        <script src="main.js"></script>
+    </div>
+</body>
+
+</html>
