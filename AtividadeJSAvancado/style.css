@@ -85,11 +85,19 @@ button {
 .deposito{
     background-color: green;
     color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15px;
 }
 
 .saque{
     background-color: red;
     color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15px;
 }
 
 .botoes {
