@@ -47,7 +47,7 @@ function saque() {
         if(conta.saque(valor)) {
         updateValorTotal();
     } else { 
-        alert('Saldo insuficiente ou valor válido! \n  Por favor, tente novamente!')
+        alert('Saldo insuficiente ou valor inválido! \n  Por favor, tente novamente!')
     }
    }
 }
