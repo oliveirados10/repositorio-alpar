@@ -1,7 +1,7 @@
  /* Reset do CSS */
 @font-face{
     font-family:"Pokemon";
-    src: url("./Ketchum.otf");
+    src: url("../fonts/Ketchum.otf");
 }
 
 *{
@@ -94,7 +94,7 @@ main{
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url("./pokebola.png" );
+    background-image: url("../css/imagens/pokebola.png" );
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: 50% 70px;
