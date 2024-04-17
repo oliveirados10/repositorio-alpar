@@ -91,6 +91,7 @@ body {
     font-weight: bold;
     display: flex;
     overflow: auto;
+    font-size: 26px;
 }
 
 .atividades div {
