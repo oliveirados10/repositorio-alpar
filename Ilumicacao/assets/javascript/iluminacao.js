@@ -49,7 +49,7 @@ controleIluminacao.adicionarObserver({
             statusElement.style.color = 'yellow';
         } else {
             statusElement.innerHTML = '<br><strong>Luz Desligada</strong>';
-            statusElement.style.color = 'white';
+            statusElement.style.color = 'red';
         }
     }
 });
