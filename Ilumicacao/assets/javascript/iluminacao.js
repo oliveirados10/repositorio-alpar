@@ -46,10 +46,10 @@ controleIluminacao.adicionarObserver({
         const statusElement = document.querySelector(`.status${comodo.charAt(0).toUpperCase() + comodo.slice(1)}`);
         if (estado) {
             statusElement.innerHTML = '<br><strong>Luz Ligada</strong>';
-            statusElement.style.color = 'green';
+            statusElement.style.color = 'yellow';
         } else {
             statusElement.innerHTML = '<br><strong>Luz Desligada</strong>';
-            statusElement.style.color = 'red';
+            statusElement.style.color = 'white';
         }
     }
 });
