@@ -9,7 +9,7 @@
 
 body {
     padding: 20px;
-    background: url("background_red.avif");
+    background: url("./background_red.avif");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
