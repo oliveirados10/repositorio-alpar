@@ -9,7 +9,7 @@
 
 
 body {
-    background: url("./IMG/image_background_azul.jpg");
+    background: url("../IMG/image_background_azul.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
