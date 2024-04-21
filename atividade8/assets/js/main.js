@@ -27,7 +27,7 @@ function fetchWeatherData(location) {
             updateUI(updateData);
         })
         .catch(error => {
-            console.error('Erro ao obter dados meteorológicos:', error)
+           prompt('Erro ao obter dados meteorológicos:', error)
         });
 }
 

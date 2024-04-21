@@ -36,7 +36,7 @@ class UIController {
       const data = await this.weatherService.fetchWeather(city);
       this.updateUI(data);
     } catch (error) {
-      console.log('Erro ao obter dados meteorológicos: ', error);
+      prompt('Erro ao obter dados meteorológicos: ', error);
     }
   }
 }
@@ -54,7 +54,7 @@ class WeatherController {
 
           this.uiController.updateUI(data);
       } catch (error) {
-          console.log('Erro ao obter dados meteorológicos: ', error);
+          prompt('Erro ao obter dados meteorológicos: ', error);
       }
   }
 }
