@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/css/img/icon_sol.png" type="./assets/css/icon_sol">
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Previsão do Tempo</h1>
+    </header>
+
+    <div class="previsao">
+
+        <div class="pesquisa">
+            <form id="pesquisalocal">
+                <div class="label">
+                    <label for="locationInput"><strong>Digite o nome do local</strong> </label>
+                </div>
+                <div class="input">
+                    <input type="text" id="locationInput" required>
+                    <button type="submit">Pesquisar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="informacoes">
+            <div class="local"> Local: </div>
+            <div class="temperatura"> Temperatura: </div>
+            <div class="clima"> Clima: </div>
+            <div class="vento">Vento: </div>
+            <div class="umidade">Umidade:</div>
+            <div class="pais">Chuva: </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/Controller.js"></script>
+    <script src="./assets/js/WeatherService.js"></script>
+    <script src="./assets/js/main.js"></script>
+
+
+    <a href="../">Retornar ao Menu Inicial</a>
+</body>
+
+</html>
